@@ -2,32 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=5.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROSPACE</title>
+    <link rel="icon" type="images/jpg" href="img/icon.jpg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
     
-      <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-        <br>
+    <div class="h-section"></div>
+    <nav class="navbar">
+        <ul class="navbar">
+            <div class="logo"><img src="img/logo.gif"alt=logo></div>
+            <li><a href="home.html">HOME</a></li>
+             <li><a href="news.html">RECENT EVENTS</a></li>
+            <li><a href="facts.html">FACTS</a></li>
+            <li> <a href="login.html">Login/Register </a></li>
+        </ul>
+         <div class="rightNav">
+            <input type="text"name="search" id="search">
+            <button class="btn btn-sn">Explore</button>
+        </div>
+    </nav>
     
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-        <br>
-        <button type="submit">Login</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-        <br>
-      </div>
+    <main>
+        <section class="features">
+            <h2>FEATURES</h2>
+            <ul>
+               <li>Location-Based Event Detection</li>
+               <li>Event Details and Information</li>
+               <li>Event Reminders</li>
+               <li>Educational Resources and Tutorials</li>
+            </ul>
+
     
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <br><span class="psw">Forgot <a href="#">password?</a></span>
-      </div>
-    </form>
+        </section>
+    </main>
+    
 </body>
 </html>
