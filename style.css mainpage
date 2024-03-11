@@ -68,7 +68,8 @@ header {
 }
 
 .home nav ul li a {
-    color: #333;
+  background-color:#33353d
+  color;
     text-decoration: none;
 }
 
@@ -146,7 +147,7 @@ aside ul li a {
 {
   color:#737373;
 }
-.site-footer 
+.site-footer a:hover
 {
   color:#3366cc;
   text-decoration:none;
@@ -164,16 +165,20 @@ aside ul li a {
 {
   color:#737373
 }
-
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
 .footer-links.inline li
 {
   display:inline-block
 }
-.site-footer 
+.site-footer .social-icons
 {
   text-align:right
 }
-.site-footer
+.site-footer  a
 {
   width:40px;
   height:40px;
@@ -184,15 +189,3 @@ aside ul li a {
   background-color:#33353d
 }
 
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer
-  {
-    text-align:center
-  }
-
-
-
-    
