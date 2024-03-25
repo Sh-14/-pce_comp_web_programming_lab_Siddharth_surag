@@ -6,9 +6,10 @@
     <title>Milestones of Space</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f0f0;
         }
 
         header {
@@ -16,36 +17,50 @@
             color: white;
             padding: 20px 0;
             text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
         }
 
         .milestones {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
+            justify-content: center;
+            gap: 20px;
         }
 
         .milestone {
             width: 300px;
-            margin: 20px;
+            margin-bottom: 30px;
             padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .milestone:hover {
+            transform: translateY(-5px);
         }
 
         .milestone img {
             max-width: 100%;
-            border-radius: 5px;
+            border-radius: 10px;
+            margin-bottom: 15px;
         }
 
         .milestone h2 {
-            margin-top: 10px;
-            font-size: 20px;
+            margin: 0;
+            font-size: 22px;
+            color: #333;
         }
 
         .milestone p {
             font-size: 16px;
+            color: #666;
         }
     </style>
 </head>
@@ -67,23 +82,4 @@
         <div class="milestone">
             <img src="3.png" alt="Apollo 11 Moon Landing">
             <h2>Apollo 11 Moon Landing</h2>
-            <p>The Apollo 11 moon landing on July 20, 1969, marked the first time humans set foot on the moon, with astronauts Neil Armstrong and Buzz Aldrin making history.</p>
-        </div>
-        <div class="milestone">
-            <img src="4.png" alt="Voyager 1 and 2">
-            <h2>Voyager 1 and 2</h2>
-            <p>The Voyager 1 and 2 spacecraft, launched in 1977, embarked on a groundbreaking mission to explore the outer planets of our solar system and continue their journey into interstellar space, providing invaluable data and images of distant worlds.</p>
-        </div>
-        <div class="milestone">
-            <img src="pp.jpg" alt="First image of black hole">
-            <h2>First image of black hole</h2>
-            <p>The first image of a black hole, captured by the Event Horizon Telescope in 2019, provided unprecedented visual confirmation of Einstein's theory of general relativity and offered insights into the extreme gravitational forces at the heart of these enigmatic cosmic objects.</p>
-        </div>
-        <div class="milestone">
-            <img src="OIF.jpg" alt="Prime">
-            <h2>Gaganyaan Mission: Meet ISRO's 4 astronauts going to space</h2>
-            <p>Prime Minister Narendra Modi announced the names of four astronauts (four Shakti) undergoing training for the country's maiden human space flight mission, Gaganyaan, at the Vikram Sarabhai Space Centre (VSSC) in Thumba, near the Kerala state capital.</p>
-        </div>
-    </div>
-</body>
-</html>
+            <p>The Apollo 11 moon landing on July 20, 1969, marked the first time humans set foot on the mo
