@@ -3,87 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facts</title>
+    <title>Space Facts</title>
+    <link href='https://fonts.googleapis.com/css?family=Averia Libre' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Averia Libre';font-size: 22px;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to bottom, #0a1931, #2b4177);
+            color: #fff;
+        }
+        header {
+            background-color: #30447c;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 40px;
+            font-weight:bold;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .column {
+            flex-basis: 48%;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            border-radius: 10px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #f1f1f1;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #fff;
+        }
+        th {
+            background-color: #30447c;
+        }
+        footer {
+            background-color: #67b5d9;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        footer a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
-<style>
-    *{background-color: rgb(178, 178, 232);}
-    h1{font-size: 30px;}
-    h2{font-size: 20px;}
-    h3{font-size: 20px;}
-    p1{font-size: 30px ;font-style: italic;font-weight: 600;}
-    table,th,td{border: 3px solid black;
-    border-collapse: collapse;}
-
-</style>
 <body>
-    <h1 style="color:blue;">WELCOME TO SPACE</h1>
-    <h2>INTO THE SPACE:</h2>>
-    <iframe width="320" height="215"
-src="https://www.youtube.com/embed/UHC2WcyzrjY">
-</iframe>
-    <h3>HIGHEST JUMP:</h3>
-    <iframe width="320" height="215"
-src="https://www.youtube.com/embed/Hz2F_S3Tl0Y">
-</iframe>
-<h3 style="color: rgb(106, 0, 255);">SOME INTERESTING FACTS:</h3>
-    <p1 style="color: rgb(226, 28, 10);">1.99 percent of our solar system's mass is the sun. <br>
-        2.The Apollo astronauts' footprints on the moon will probably stay there for at least 100 million years.<br>
-        3.More energy from the sun hits Earth every hour than the planet uses in a year.<br>
-        4. If two pieces of the same type of metal touch in space, they will bond and be permanently stuck together. <br>
-        5.One day on Venus is longer than one year on Earth.<br>
-    </p1>
-    <h2>OVERVIEW OF SOLAR SYSTEM</h2>
-
-    <table>
-      <tr>
-        <th>PLANETS</th>
-        <th>DISTANCE FROM EARTH (IN AVG)</th>
-        <th>SPECIAL PROPERTY</th>
-        <th>SIZE (IN DIAMETER)</th>
-      </tr>
-      <tr>
-        <td>MERCURY</td>
-        <td>48 MILLION MILES</td>
-        <td>IT IS THE SMALLEST PLANET IN OUR SOLAR SYSTEM</td>
-        <td>3,032 MILES</td>
-      </tr>
-      <tr>
-        <td>VENUS</td>
-        <td>38 MILLION MILES</td>
-        <td>IT IS THE HOTTEST PLANET IN OUR SOLAR SYSTEM</td>
-        <td>7,521 MILES</td>
-      </tr>
-      <tr>
-        <td>MARS</td>
-        <td>140 MILLION MILES</td>
-        <td>ITS THE ONLY PLANET WE KNOW WHICH IS INHABITED BY OUR ROBOTS FOR RESEARCH</td>
-        <td>4,212 MILES</td>
-      </tr>
-      <tr>
-        <td>JUPITER</td>
-        <td>444 MILLION MILES</td>
-        <td>IT IS THE LARGEST PLANET IN OUR SOLAR SYSTEM</td>
-        <td>86,881 MILES</td>
-      </tr>
-      <tr>
-        <td>SATURN</td>
-        <td>746 MILLION MILES</td>
-        <td>IT IS SURROUNDED BY BEAUTIFUL RINGS</td>
-        <td>72,368 MILES</td>
-      </tr>
-      <tr>
-        <td>URANUS</td>
-        <td>1.8 BILLION MILES</td>
-        <td>IT IS THE ONLY PLANET WHICH SPINS SIDEWAYS</td>
-        <td>31,518 MILES</td>
-      </tr>
-      <tr>
-        <td>NEPTUNE</td>
-        <td>2.7 BILLION MILES</td>
-        <td>IT IS THE FIRST PLANET WHICH IS DISCOVERED THROUGH MATHEMATICAL CALCULATIONS</td>
-        <td>30,599 MILES</td>
-      </tr>
-    </table>
-    
-</body>
-</html>
+    <header style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">WELCOME TO SPACE</header>
+    <div class="container">
+        <div class="row">  
+            <div class="column">
+                <h2>INTO THE SPACE</h2>
+                <iframe src="https://www.youtube.com/embed/UHC2WcyzrjY" allowfullscreen></iframe>
+            </div>
+            <div class="column">
+                <h2>HIGHEST JUMP</h2>
+                <iframe src="https://www.youtube.com/embed/Hz2F_S3Tl0Y" allowfullscreen></iframe>
+            </div>
+        </div>  
+        <h3>SOME INTERESTING FACTS:</h3>
+        <p>1. 99 percent of our solar system's mass is the sun. <br>
+            2. The Apollo astronauts' footprints on the moon will probably stay there for at least 100 million years.<br>
+            3. More energy from the sun hits Earth every hour than the planet uses in a year.<br>
+            4. If two pieces of the same type of metal touch in space, they will bond and be permanently stuck together. <br>
+            5. One day on Venus is longer than one year on Earth.<br>
+        </p>
+        <h2>OVERVIEW OF SOLAR SYSTEM</h2>
+        <table>
+            <tr>
+                <th>PLANETS</th>
+                <th>DISTANCE FROM EARTH (IN AVG)</th>
+                <th>SPECIAL PROPERTY</th>
+                <th>SIZE (IN DIAMETER)</th>
+            </tr>
+            <tr>
+                <td>MERCURY</td>
+                <td>48 MILLION MILES</td>
+                <td>IT IS THE SMALLEST PLANET IN OUR SOLAR SYSTEM</td>
+                <td>3,032 MILES</td>
+            </tr>
+            <tr>
+                <td>VENUS</td>
+                <td>38 MILLION MILES</td>
+                <td>IT IS THE HOTTEST PLANET IN OUR SOLAR SYSTEM</td>
+                <td>7,521 MILES</td>
+            </tr>
+            <tr>
+                <td>MARS</td>
+                <td>140 MILLION MILES</td>
+                <td>ITS THE ONLY PLANET WE KNOW WHICH IS INHABITED BY OUR ROBOTS FOR RESEARCH</td>
+                <td>4,212 MILES</td>
+            </tr>
+            <tr>
+                <td>JUPITER</td>
+                <td>444 MILLION MILES</td>
+                <td>IT IS THE LARGEST PLANET IN OUR SOLAR SYSTEM</td>
+                <td>86,881 MILES</td>
+            </tr>
+            <tr>
+                <td>SATURN</td>
+                <td>746 MILLION MILES</td>
+                <td>IT IS SURROUNDED BY BEAUTIFUL RINGS</td>
+                <td>72,368 MILES</td>
+            </tr>
+            <tr>
+                <td>URANUS</td>
+                <td>1.8 BILLION MILES</td>
+                <td>IT IS THE ONLY PLANET WHICH SPINS SIDEWAYS</td>
+                <td>31,518 MILES</td>
+            </tr>
+            <tr>
+                <td>NEPTUNE</td>
+                <td>2.7 BILLION MILES</td>
+                <td>IT IS THE FIRST PLANET WHICH IS DISCOVERED THROUGH MATHEMATICAL CALCULATIONS</td>
+                <td>30,599 MILES</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>HOPE YOU LEARNED SOMETHING NEW.<br>COME BACK AGAIN FOR MORE FASCINATING TRUTHS.</p>
+    </footer>
+        
