@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 40px 200px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  font: size 20px; 
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:15px;
+  font-weight: bold;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+</style>
+</head>
+<body>
+
+<div class="month">      
+  <ul>
+    <li>
+      APRIL<br>
+      <span style="font-size:18px">2024</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">  
+  <li><span style="color: blue; font-size: 30px;font-weight: bolder;">1<br></span>	<span style="color: blue;"> Sombrero Galaxy is well placed</span></li>
+  <li>2</li>
+  <li><span style="color: blue; font-size: 30px;font-weight: bolder;">3<br></span><span style="color: blue;"> Conjunction of Venus and Neptune</span></li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li><span style="color: blue; font-size: 30px;font-weight: bolder;">8</span> <br><span style="color:blue;"> 532 Herculina at opposition"</span></li>
+  <li>9</li>
+  <li>10</li>
+  <li><span style="color: blue; font-size: 30px;font-weight: bolder;">11</span><br><span style="color: blue;">Close Approach of Saturn and Mars</span></li>
+  <li>12</li>
+  <li><span style="color: blue; font-size: 30px;font-weight: bolder;">13</span><br><span style="color: blue;">Lunar occultation of Beta Tauri</span></li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li><span style="color: blue; font-size: 30px;font-weight: bolder;">21</span><br><span style="color: blue;">Comet 12P/PonsBrooks reaches peak Brightness</span></li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li><span style="color: blue; font-size: 30px;font-weight: bolder;">30</span><br><span style="color: blue;">Mercury at aphelion</span></li>
+</ul>
+
+<div class="month">      
+    <ul>
+      <li>
+        MAY<br>
+        <span style="font-size:18px">2024</span>
+      </li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li></li>
+    <li></li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days">  
+    <li></li>
+    <li></li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li><span style="color:red; font-size: 30px;font-weight: bolder;">6</span><br><span style="color:red;">N-Lyrid meteor shower 2024</span></li>
+    <li>7</li>
+    <li><span style="color:red; font-size: 30px;font-weight: bolder;">8</span><br><span style="color: red;">Mercury at greatest elongation west</span></li>
+    <li>9</li>
+    <li>10</li>
+    <li><span style="color:red; font-size: 30px;font-weight: bolder;">11</span><br><span style="color: red;">Uranus at solar conjunction</span></li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li><span style="color:red; font-size: 30px;font-weight: bolder;">15</span><br><span style="color: red;">Asteroid 2 Pallas at opposition. <br> Comet 46P/Wirtanen passes perihelion</span></li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li><span style="color:red; font-size: 30px;font-weight: bolder;">26</span><bR><span style="color: red;">Messier 4 is well placed</span></li>
+    <li>27</li>
+    <li>28</li>
+    <li><span style="color:red; font-size: 30px;font-weight: bolder;">29</span><br><span style="color: red;">Close approach of the Moon and Saturn.<br>Lunar occultation of Saturn</span></li>
+    <li>30</li>
+    <li>31</li>
+
+  </ul>
+
+  <div class="month">      
+  <ul>
+    <li>
+      JUNE<br>
+      <span style="font-size:18px">2024</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">  
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li>1</li>
+  <li><span style="color:green; font-size: 30px;font-weight: bolder;">2</span><br><span style="color: green;">Lunar occultation of Neptune.<br>The Great Globular Cluster in Hercules is well placed</span></li>
+  <li>3</li>
+  <li><span style="color:green; font-size: 30px;font-weight: bolder;">4</span><br><span style="color: green;">Asteroid 43 Ariadne at opposition.<br>Messier 12 is well placed</span></li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li><span style="color:green; font-size: 30px;font-weight: bolder;">12</span><br><span style="color: green;">Comet 154P/Brewington passes perihelion.</span></li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li><span style="color:green; font-size: 30px;font-weight: bolder;">17</span><br><span style=" color: green;">NGC 6388 is well placed</span></li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li><span style="color:green; font-size: 30px;font-weight: bolder;">21</span><br><span style="color: green;">Lunar occultation of Antares.<br>
+    The Ptolemy cluster is well placed</span></li>
+  <li>22</li>
+  <li><span style="color:green; font-size: 30px;font-weight: bolder;">23</span><br><span style="color: green;">
+    Full Moon.<br>The Lagoon Nebula is well placed</span></li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li><span style="color:green; font-size: 30px;font-weight: bolder;">28</span><br><span style="color: green;">June Bootid meteor shower 2024.<br>Close approach of the Moon and Saturn</span></li>
+  <li><span style="color:green; font-size: 30px;font-weight: bolder;">29</span><br><span style="  color: green">The cluster NGC 6633 is well placed.</span></li>
+  <li>30</li>
+
+</ul>
+
+  <div class="month">      
+    <ul>
+      <li>
+        JULY<br>
+        <span style="font-size:18px">2024</span>
+      </li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days"> 
+    <li></li> 
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+    <li>27</li>
+    <li>28</li>
+    <li>29</li>
+    <li>30</li>
+    <li>31</li>
+
+  </ul>
+    
+  <div class="month">      
+    <ul>
+      <li>
+        AUGUST<br>
+        <span style="font-size:18px">2024</span>
+      </li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days">  
+    <li></li>
+    <li></li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+    <li>27</li>
+    <li>28</li>
+    <li>29</li>
+    <li>30</li>
+    <li>31</li>
+
+  </ul>
+  <div class="month">      
+    <ul>
+      <li>
+        SEPTEMBER<br>
+        <span style="font-size:18px">2024</span>
+      </li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days">  
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+    <li>27</li>
+    <li>28</li>
+    <li>29</li>
+    <li>30</li>
+
+
+  </ul>
+    
+  <div class="month">      
+    <ul>
+      <li>
+        OCTOBER<br>
+        <span style="font-size:18px">2024</span>
+      </li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days">  
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+    <li>27</li>
+    <li>28</li>
+    <li>29</li>
+    <li>30</li>
+    <li>31</li>
+  </ul>
+  <div class="month">      
+    <ul>
+      <li>
+        NOVEMBER<br>
+        <span style="font-size:18px">2024</span>
+      </li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days">  
+    <li></li>
+    <li></li>
+    <li></li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+    <li>27</li>
+    <li>28</li>
+    <li>29</li>
+    <li>30</li>
+
+  </ul>
+    
+  <div class="month">      
+    <ul>
+      <li>
+        DECEMBER<br>
+        <span style="font-size:18px">2024</span>
+      </li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days">  
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+    <li>27</li>
+    <li>28</li>
+    <li>29</li>
+    <li>30</li>
+    <li>31</li>
+
+  </ul>
+       
+</body>
+</html>
